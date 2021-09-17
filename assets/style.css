@@ -1,0 +1,12 @@
+.carousel-item {
+  background-color: gray;
+  position: relative;
+  height: 500px;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 25px;
+  color: aliceblue;
+}
