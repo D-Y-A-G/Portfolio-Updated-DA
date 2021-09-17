@@ -1,12 +1,26 @@
-.carousel-item {
-  background-color: gray;
+#carouselPortfolio {
+  background-color: rgb(212, 208, 208);
   position: relative;
-  height: 500px;
+  height: 600px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
-.container {
+/* .container {
   position: absolute;
   bottom: 0;
   padding-bottom: 25px;
   color: aliceblue;
+} */
+
+#image1,
+#image2,
+#image3 {
+  opacity: 90%;
+  z-index: -1;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px 10px 0px 0px;
 }
