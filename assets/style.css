@@ -1,13 +1,76 @@
+* {
+  margin: 0%;
+}
+
 #carouselPortfolio {
-  background-color: rgb(212, 208, 208);
+  background-color: rgb(138, 134, 134);
   position: relative;
   height: 600px;
   width: 50%;
   margin-left: auto;
-  margin-right: auto;
+  /* margin-right: auto; */
   border-radius: 10px;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
+#recent {
+  color: royalblue;
+  align-items: center;
+  text-align: center;
+}
+
+#nameDev {
+  background-color: rgb(106, 175, 245);
+  color: white;
+  margin-bottom: 10px;
+  position: static;
+  display: flex;
+  text-shadow: 1px 1px black;
+  margin-left: 0%;
+}
+
+#recent-btn {
+  position: relative;
+  top: -70px;
+  left: 50%;
+}
+#myName {
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: 80px;
+}
+
+#fullDev {
+  color: rgb(250, 174, 32);
+}
+
+#navBar,
+.nav-item {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+#portrait {
+  width: 210px;
+  height: 250px;
+  border-radius: 100px;
+  border: 10px solid white;
+  margin-left: 0%;
+}
+
+#aboutMe {
+  position: relative;
+  top: -450px;
+  font-size: 1.5rem;
+  padding-left: 70px;
+  padding-right: 10px;
+  color: royalblue;
+}
 /* .container {
   position: absolute;
   bottom: 0;
