@@ -7,7 +7,7 @@
   position: relative;
   height: 600px;
   width: 50%;
-  margin-left: auto;
+  margin-left: 700px;
   /* margin-right: auto; */
   border-radius: 10px;
   color: white;
@@ -65,11 +65,11 @@
 
 #aboutMe {
   position: relative;
-  top: -450px;
+  top: -500px;
   font-size: 1.5rem;
   padding-left: 70px;
   padding-right: 10px;
-  color: royalblue;
+  color: grey;
 }
 /* .container {
   position: absolute;
