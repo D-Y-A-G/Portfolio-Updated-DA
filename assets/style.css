@@ -2,22 +2,43 @@
   margin: 0%;
 }
 
+#recentWork {
+  position: relative;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: right;
+  margin-right: 350px;
+  padding-top: 20px;
+  padding-bottom: 0%;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+h3 {
+  background-image: url(https://media1.giphy.com/media/SYut2vjrxt87C/giphy.gif?cid=ecf05e47huy60ez4vr3cdrdyztt0h14gtjue9az212a4wrdl&rid=giphy.gif&ct=g);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 0.8;
+  margin: 10px 0;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
 #carouselPortfolio {
   background-color: rgb(138, 134, 134);
   position: relative;
   height: 600px;
   width: 50%;
+  margin-top: 60px;
   margin-left: 700px;
   /* margin-right: auto; */
   border-radius: 10px;
   color: white;
   text-shadow: 1px 1px black;
-}
-
-#recent {
-  color: royalblue;
-  align-items: center;
-  text-align: center;
 }
 
 #nameDev {
@@ -30,16 +51,18 @@
   margin-left: 0%;
 }
 
-#recent-btn {
+/* #recent-btn {
   position: relative;
   top: -70px;
   left: 50%;
-}
+} */
+
 #myName {
   text-align: center;
   align-items: center;
   position: relative;
   top: 80px;
+  font-size: 3.5rem;
 }
 
 #fullDev {
@@ -48,28 +71,53 @@
 
 #navBar,
 .nav-item {
-  background-color: cornflowerblue;
-  color: white;
+  background-color: white;
+  color: royalblue !important;
   padding: 5px;
-  font-weight: bold;
+  font-weight: 600;
   text-shadow: 1px 1px black;
 }
 
 #portrait {
-  width: 210px;
-  height: 250px;
+  width: 200px;
+  height: 240px;
   border-radius: 100px;
   border: 10px solid white;
   margin-left: 0%;
+  position: static;
+  display: inline;
 }
 
 #aboutMe {
   position: relative;
-  top: -500px;
+  top: -600px;
   font-size: 1.5rem;
   padding-left: 70px;
   padding-right: 10px;
-  color: grey;
+  color: rgb(155, 155, 155);
+}
+
+#futureCard {
+  background-color: rgb(184, 179, 179);
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+#innerCard {
+  font-weight: bolder;
+  background-color: cornflowerblue;
+}
+
+#linkInfo,
+.color {
+  align-items: center;
+  text-align: center;
+  background-color: cornflowerblue;
+  color: goldenrod !important;
+  text-shadow: 1px 1px black;
+  margin-right: 15px;
+  font-weight: bold;
+  padding: 15px;
 }
 /* .container {
   position: absolute;
