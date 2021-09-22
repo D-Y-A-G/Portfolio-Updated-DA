@@ -98,14 +98,15 @@ h3 {
 }
 
 #futureCard {
-  background-color: rgb(184, 179, 179);
+  background-color: rgb(223, 222, 222);
   color: aliceblue;
   font-weight: bolder;
 }
 
 #innerCard {
   font-weight: bolder;
-  background-color: cornflowerblue;
+  background-color: rgb(157, 189, 248);
+  color: white;
 }
 
 #linkInfo,
@@ -118,6 +119,7 @@ h3 {
   margin-right: 15px;
   font-weight: bold;
   padding: 15px;
+  font-size: 1.25rem;
 }
 /* .container {
   position: absolute;
